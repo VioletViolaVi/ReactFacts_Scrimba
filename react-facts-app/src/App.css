@@ -9,6 +9,7 @@
 body {
   cursor: default;
   font-family: "Inter", sans-serif;
+  background-color: #282d35;
 }
 
 .bullet-points {
@@ -25,14 +26,14 @@ body {
 }
 
 /* tile 1 */
-.fab.fa-react,
+header .fab.fa-react,
 .header div p:nth-child(2) {
   color: #61dafb;
   font-size: 1.3rem;
   font-weight: 900;
 }
 
-.fab.fa-react {
+header .fab.fa-react {
   float: left;
   margin-right: 0.5rem;
 }
@@ -43,4 +44,40 @@ body {
   font-size: 1.3rem;
   text-align: right;
   font-weight: 900;
+}
+
+/* main ***************************/
+.main {
+  margin-top: 4rem;
+}
+
+/* heading */
+.main h1 {
+  color: #ffffff;
+  margin: 0 1rem 3rem;
+  font-size: 3rem;
+}
+
+/* bullet points */
+.bullet-points {
+  margin-left: 3rem;
+}
+
+.bullet-points li {
+  color: #ffffff;
+  font-size: 1.7rem;
+  line-height: 1.7;
+}
+
+.bullet-points li::before {
+  content: "\2022";
+  color: #61dafb;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.main .fab.fa-react {
+  color: rgb(141, 136, 136);
 }

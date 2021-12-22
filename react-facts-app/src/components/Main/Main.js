@@ -3,7 +3,7 @@ import BulletPoints from "./BulletPoints";
 
 const Main = () => {
   return (
-    <main>
+    <main className={"main"}>
       <MainTitle />
       <BulletPoints />
     </main>
