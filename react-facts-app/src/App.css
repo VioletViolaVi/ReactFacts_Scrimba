@@ -10,6 +10,7 @@ body {
   cursor: default;
   font-family: "Inter", sans-serif;
   background-color: #282d35;
+  overflow: hidden;
 }
 
 .bullet-points {
@@ -21,15 +22,14 @@ body {
   background-color: #21222a;
   display: grid;
   grid-template-columns: auto auto;
-  height: 5rem;
-  padding: 3rem 0 5rem;
+  padding: 2rem 0;
 }
 
 /* tile 1 */
 header .fab.fa-react,
 .header div p:nth-child(2) {
   color: #61dafb;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 900;
 }
 
@@ -41,21 +41,21 @@ header .fab.fa-react {
 /* title 2 */
 .header > p {
   color: #deebf8;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: right;
   font-weight: 900;
 }
 
 /* main ***************************/
 .main {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 
 /* heading */
 .main h1 {
   color: #ffffff;
-  margin: 0 1rem 3rem;
-  font-size: 3rem;
+  margin: 0 1rem 0.5rem;
+  font-size: 2.5rem;
 }
 
 /* bullet points */
@@ -65,7 +65,7 @@ header .fab.fa-react {
 
 .bullet-points li {
   color: #ffffff;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   line-height: 1.7;
 }
 
@@ -78,6 +78,125 @@ header .fab.fa-react {
   margin-left: -1em;
 }
 
+/* background logo */
 .main .fab.fa-react {
-  color: rgb(141, 136, 136);
+  color: rgba(141, 136, 136, 0.192);
+  font-size: 26rem;
+  position: absolute;
+  top: 16rem;
+  right: -13rem;
+}
+
+/* responsive styles ***************************/
+@media only screen and (min-width: 446px) {
+  /* header ***************************/
+  .header {
+    padding: 3rem 0;
+  }
+
+  /* tile 1 */
+  header .fab.fa-react,
+  .header div p:nth-child(2) {
+    font-size: 1.4rem;
+  }
+
+  /* title 2 */
+  .header > p {
+    font-size: 1.4rem;
+  }
+
+  /* main ***************************/
+  /* heading */
+  .main h1 {
+    font-size: 3rem;
+  }
+
+  /* bullet points */
+  .bullet-points li {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 529px) {
+  /* header ***************************/
+  .header {
+    padding: 3.5rem 0;
+  }
+
+  /* tile 1 */
+  header .fab.fa-react,
+  .header div p:nth-child(2) {
+    font-size: 1.7rem;
+  }
+
+  /* title 2 */
+  .header > p {
+    font-size: 1.7rem;
+  }
+
+  /* main ***************************/
+  /* heading */
+  .main h1 {
+    font-size: 3.5rem;
+  }
+
+  /* bullet points */
+  .bullet-points li {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 868px) {
+  /* header ***************************/
+  /* tile 1 */
+  header .fab.fa-react,
+  .header div p:nth-child(2) {
+    font-size: 2.5rem;
+  }
+
+  /* title 2 */
+  .header > p {
+    font-size: 2.5rem;
+  }
+
+  /* main ***************************/
+  /* heading */
+  .main h1 {
+    font-size: 4rem;
+  }
+
+  /* bullet points */
+  .bullet-points li {
+    font-size: 2.3rem;
+  }
+
+  /* background logo */
+  .main .fab.fa-react {
+    font-size: 31rem;
+    top: 12rem;
+    right: -16rem;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  /* header ***************************/
+  .header {
+    padding: 4rem 0;
+  }
+  /* tile 1 */
+  header .fab.fa-react,
+  .header div p:nth-child(2) {
+    font-size: 4rem;
+  }
+
+  /* title 2 */
+  .header > p {
+    font-size: 4rem;
+  }
+
+  /* main ***************************/
+  /* heading */
+  .main h1 {
+    font-size: 4.5rem;
+  }
 }
