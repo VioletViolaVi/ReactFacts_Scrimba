@@ -3,7 +3,7 @@ import Title2 from "./Title2";
 
 const Header = () => {
   return (
-    <header>
+    <header className={"header"}>
       <Title1 />
       <Title2 />
     </header>

@@ -8,6 +8,7 @@
 
 body {
   cursor: default;
+  font-family: "Inter", sans-serif;
 }
 
 .bullet-points {
@@ -15,3 +16,31 @@ body {
 }
 
 /* header ***************************/
+.header {
+  background-color: #21222a;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 5rem;
+  padding: 3rem 0 5rem;
+}
+
+/* tile 1 */
+.fab.fa-react,
+.header div p:nth-child(2) {
+  color: #61dafb;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.fab.fa-react {
+  float: left;
+  margin-right: 0.5rem;
+}
+
+/* title 2 */
+.header > p {
+  color: #deebf8;
+  font-size: 1.3rem;
+  text-align: right;
+  font-weight: 900;
+}
