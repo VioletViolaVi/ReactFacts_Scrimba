@@ -1,9 +1,7 @@
 const Title1 = () => {
     return (
         <>
-            <figure>
-                <img src={} alt="Image of react logo"/>
-            </figure>             
+            <i class="fab fa-react"></i>             
             <p>ReactFacts</p>
         </>
     )
