@@ -1,6 +1,6 @@
 const BulletPoints = () => {
   return (
-    <ul>
+    <ul className={"bullet-points"}>
       <li>Was first released in 2013</li>
       <li>Was originally created by Jordan Walke</li>
       <li>Has well over 100K stars on GitHub</li>
