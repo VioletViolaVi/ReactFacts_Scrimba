@@ -8,6 +8,7 @@ This project is about creating a static website displaying React facts using Rea
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Figma](https://www.figma.com/)
 - [Font Awesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Chrome Development Tools](https://developer.chrome.com/docs/)
